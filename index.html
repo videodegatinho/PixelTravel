@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <meta name="author" content="Emily">
+    <meta name="description" content="Página sobre viagens">
+    <meta name="keywords" content="Viagens, Pixels, Landing">
+    <meta name="robots" content="index,follow">
+    <title>PixelTravel</title>
+
+    <link rel="shortcut icon" href="./img/icons8-pixel-star-16.png" type="image/x-icon">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">PixelTravel</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="./img/t5ImUu6.mp4" muted loop autoplay ></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>“Viajar é mais do que a visita de pontos turísticos, é a mudança que acontece, profunda e permanentemente, no conceito sobre o que é a vida.” – Miriam Beard</p>
+            <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="./img/facebook-branco.png" alt=""></a></li>
+            <li><a href="#"></a><img src="./img/twitter-branco.png" alt=""></a></li>
+            <li><a href="#"></a><img src="./img/instagram-branco.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
